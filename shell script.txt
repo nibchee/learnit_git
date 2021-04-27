@@ -1,0 +1,121 @@
+Xshell 6 (Build 0204)
+Copyright (c) 2002 NetSarang Computer, Inc. All rights reserved.
+
+Type `help' to learn how to use Xshell prompt.
+[C:\~]$ help
+Internal Commands:
+new:      Creates a new session.
+open:     Opens a session or the session dialog box.
+edit:     Opens the Session Property dialog box for a session.
+list:     Lists information of all available sessions.
+cd:       Changes the current working directory.
+pwd:      Shows the current working directory.
+set:      Sets options.
+clear:    Clears the screen/address/command history.
+help:     Displays this help. '?' does the same.
+quit:     Quits Local Shell. 'exit' does the same.
+ssh:      Connects to a host using the SSH protocol.
+telnet:   Connects to a host using the TELNET protocol.
+rlogin:   Connects to a host using the RLOGIN protocol.
+sftp:     Connects to a host to transfer files securely.
+ftp:      Connects to a host to transfer files.
+disconnect:  Closes connection of this session.
+reconnect:   Reconnects this session.
+realcmd:     Opens Windows CMD.*
+scp:      Transfer files using the SCP protocol.*
+* These commands are experimental features.
+
+For more information, type 'help command' for each command.
+e.g. help telnet
+[C:\~]$ ssh [7:49 PM] Priyanka  Gupta
+Invalid port number.
+[C:\~]$     
+[C:\~]$ 
+[C:\~]$ 10.151.222.95
+
+'10.151.222.95' is not recognized as an internal or external command,
+operable program or batch file.
+
+[C:\~]$ ssh [7:49 PM] Priyanka  Gupta
+Invalid port number.
+[C:\~]$     
+[C:\~]$ 
+[C:\~]$ 10.151.222.95
+
+'10.151.222.95' is not recognized as an internal or external command,
+operable program or batch file.
+
+[C:\~]$ ssh 10.151.222.95
+
+
+Connecting to 10.151.222.95:22...
+Connection established.
+To escape to local shell, press 'Ctrl+Alt+]'.
+Server closed connection. Please close dialog to finalize this session.
+Connection closing...Socket close.
+
+Connection closed by foreign host.
+
+Disconnected from remote host(10.151.222.95:22) at 19:53:34.
+
+Type `help' to learn how to use Xshell prompt.
+[C:\~]$ ssh 110.151.100.230
+
+
+Connecting to 110.151.100.230:22...
+Could not connect to '110.151.100.230' (port 22): Connection failed.
+
+Type `help' to learn how to use Xshell prompt.
+[C:\~]$ ssh 10.151.100.230
+
+
+Connecting to 10.151.100.230:22...
+Connection established.
+To escape to local shell, press 'Ctrl+Alt+]'.
+
+WARNING! The remote SSH server rejected X11 forwarding request.
+Creating home directory for nbansal.
+[nbansal@implement3 ~]$ cd /opt/mphrx
+[nbansal@implement3 mphrx]$ ll
+total 24
+drwxr-xr-x. 2 mphrxadmin mphrxadmin 4096 Jan 31  2019 backup
+drwxr-xr-x. 2 mphrxadmin mphrxadmin 4096 May 29  2020 bin
+lrwxrwxrwx. 1 mphrxadmin mphrxadmin   13 Sep 19  2019 customer -> /opt/customer
+drwxr-xr-x. 4 mphrxadmin mphrxadmin 4096 Feb  4 03:49 init
+drwxr-xr-x. 4 root       root       4096 Jan 12 05:38 init_20210112
+drwxr-xr-x. 8 mphrxadmin mphrxadmin 4096 Jan 31  2019 newimp
+drwxr-xr-x. 3 mphrxadmin mphrxadmin 4096 Sep 19  2019 scripts
+[nbansal@implement3 mphrx]$ cd newimp/
+[nbansal@implement3 newimp]$ ll
+total 24
+drwxr-xr-x.  3 mphrxadmin mphrxadmin 4096 Mar 18 06:55 apps
+drwxr-xr-x.  2 mphrxadmin mphrxadmin 4096 Jan 31  2019 conf
+drwxr-xr-x. 21 mphrxadmin mphrxadmin 4096 Feb  4 05:09 data
+drwxr-xr-x.  2 mphrxadmin mphrxadmin 4096 Jan 31  2019 log
+drwxr-xr-x.  2 mphrxadmin mphrxadmin 4096 Jan 31  2019 log_backup
+drwxr-xr-x.  2 mphrxadmin mphrxadmin 4096 Sep 19  2019 scripts
+[nbansal@implement3 newimp]$ cd apps/
+[nbansal@implement3 apps]$ ll
+total 4
+lrwxrwxrwx.  1 mphrxadmin mphrxadmin   13 Sep 19  2019 angular -> files/angular
+lrwxrwxrwx.  1 mphrxadmin mphrxadmin   12 Sep 19  2019 bizeye -> files/bizeye
+lrwxrwxrwx.  1 mphrxadmin mphrxadmin   12 Sep 19  2019 consus -> files/consus
+lrwxrwxrwx.  1 mphrxadmin mphrxadmin   31 Sep 19  2019 dcm4chee -> files/dcm/dcm4chee-2.15.0-mysql
+lrwxrwxrwx.  1 mphrxadmin mphrxadmin   16 Sep 19  2019 dicr0 -> files/dicr/dicr0
+lrwxrwxrwx.  1 mphrxadmin mphrxadmin   16 Sep 19  2019 dicr1 -> files/dicr/dicr1
+drwxr-xr-x. 12 mphrxadmin mphrxadmin 4096 Jan 31  2019 files
+lrwxrwxrwx.  1 mphrxadmin mphrxadmin   12 Sep 19  2019 jarvis -> files/jarvis
+lrwxrwxrwx.  1 mphrxadmin mphrxadmin   13 Sep 19  2019 minerva -> files/minerva
+lrwxrwxrwx.  1 root       root         30 Mar 18 06:55 mirth -> files/mirth/mirthconnect-3.9.1
+lrwxrwxrwx.  1 mphrxadmin mphrxadmin   12 Sep 19  2019 skynet -> files/skynet
+lrwxrwxrwx.  1 mphrxadmin mphrxadmin   18 Sep 19  2019 skynetserver -> files/skynetserver
+[nbansal@implement3 apps]$ 
+Socket error Event: 32 Error: 10053.
+Connection closing...Socket close.
+
+Connection closed by foreign host.
+
+Disconnected from remote host(10.151.100.230:22) at 20:15:18.
+
+Type `help' to learn how to use Xshell prompt.
+[C:\~]$ a

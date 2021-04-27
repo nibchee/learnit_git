@@ -1,0 +1,2 @@
+https://bugzilla.mphrx.com/bugzilla/
+https://bitbucket.org/mphrx/minerva-customizations/src/master/

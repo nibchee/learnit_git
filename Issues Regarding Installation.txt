@@ -1,0 +1,3 @@
+Not getting windows intaller ver. for Groovy(2.4.4)
+if installing MongoDB with 3.0x ver then not provided for windows platform.
+Regarding MySQl should I go for latest ver 5.5 is not available.
